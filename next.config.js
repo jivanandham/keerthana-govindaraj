@@ -5,7 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/keerthana-govindaraj',
+  // Remove basePath for now to simplify deployment
+  // basePath: '/keerthana-govindaraj',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
