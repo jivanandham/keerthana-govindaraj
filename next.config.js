@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Remove basePath for now to simplify deployment
-  // basePath: '/keerthana-govindaraj',
+  basePath: '/keerthana-govindaraj',
+  assetPrefix: '/keerthana-govindaraj/',
   trailingSlash: true,
 }
 
